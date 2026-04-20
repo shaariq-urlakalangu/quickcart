@@ -19,3 +19,68 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+
+/* HomePage Styles */
+.home-page {
+  padding: 20px 0;
+}
+
+.search-results {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #667eea;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.no-results {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #999;
+  padding: 60px 20px;
+}
+
+/* CategoryPage Styles */
+.category-page {
+  padding: 20px 0;
+}
+
+.category-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.category-count {
+  color: #666;
+  margin-bottom: 20px;
+  font-size: 0.95rem;
+}
+
+.empty-category {
+  text-align: center;
+  padding: 60px 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.empty-category p {
+  font-size: 1.2rem;
+  color: #999;
+  margin-bottom: 20px;
+}
+
+.back-home-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.back-home-link:hover {
+  transform: translateY(-2px);
+}
